@@ -1,0 +1,14 @@
+<!-- app/templates/libraries/index.hbs -->
+<h2>List</h2>
+
+{{#each model as |stock|}}
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">{{stock.medicineName}}</h3>
+    </div>
+    <div class="panel-body">
+      <p>IN STOCK: {{stock.inStock}}</p>
+      <p>Price: {{stock.price}}</p>
+    </div>
+  </div>
+{{/each}}

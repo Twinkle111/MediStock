@@ -3,8 +3,8 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'medi-stock',
-    environment,
+    modulePrefix: 'MediStock',
+    environment: environment,
     rootURL: '/',
     locationType: 'auto',
     EmberENV: {
